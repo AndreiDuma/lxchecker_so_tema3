@@ -90,6 +90,7 @@ BEGIN {
 
 END {
     printf "\n%66s  [%02d/90]\n", "Total:", sum;
+    printf "@score %02d\n", sum;
 }'
 
 # Cleanup testing environment
